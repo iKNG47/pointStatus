@@ -1,8 +1,9 @@
 package ControlPointCoordinateStatusPoint;
 
-public class Point {
+public class Point  {
     private int coordinateX;
     private int coordinateY;
+
 
     public int getCoordinateY() {
         return coordinateY;
@@ -19,5 +20,12 @@ public class Point {
     public void setCoordinateX(int coordinateX) {
         this.coordinateX = coordinateX;
     }
+
+    public Point ( int coordinateX, int coordinateY){
+        this.coordinateX=coordinateX;
+        this.coordinateY=coordinateY;
+
+    }
+
 }
 

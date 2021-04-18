@@ -1,11 +1,15 @@
 package ControlPointCoordinateStatusMain;
 
+import ControlPointCoordinateStatusPoint.Point;
+
+
+
 public class Main {
     public static void main(String[] args) {
-        ControlPointCoordinateStatusPoint.Point point1 =new ControlPointCoordinateStatusPoint.Point();
-        point1.setCoordinateX(2);
-        point1.setCoordinateY(4);
-
-        System.out.println(point1.getCoordinateX()+" "+point1.getCoordinateY());
+        Point point2 =new Point(2,5);
+        ControlPointCoordinateStatusMethods.Methods.pointOut(point2);
+        ControlPointCoordinateStatusMethods.Methods.addX(point2, 2 );
+        ControlPointCoordinateStatusMethods.Methods.subY(point2, 4);
+        ControlPointCoordinateStatusMethods.Methods.pointOut(point2);
     }
 }
