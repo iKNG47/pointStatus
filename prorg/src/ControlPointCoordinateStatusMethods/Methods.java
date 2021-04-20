@@ -1,6 +1,6 @@
 package ControlPointCoordinateStatusMethods;
 
-import ControlPointCoordinateStatusPoint.Point;
+import ControlPointCoordinateStatusPoint.*;
 
 public class Methods {
     public static void  addX(Point point, int add){
